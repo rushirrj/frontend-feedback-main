@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: #36416A26;
+    margin-top: 1rem;
+    min-height: 8rem;
+    padding: .5rem;
+    border-radius: .5rem .5rem 0 0;
+    display: flex;
+}
+
+.image1 {
+    height: 80%;
+    width: 15%;
+    object-fit: contain;
+    margin-right: 1rem;
+}
+
+.box2 {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text1 {
+    height: 3rem;
+    font-size: 2rem;
+    font-weight: 540;
+    color: #36416A;
+}
+
+.text2 {
+    height: 2rem;
+    font-size: 1rem;
+}
+
+.box3 {
+    height: 90%;
+    width: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box31 {
+    height: 70%;
+    background-color: #C7CBD6;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image2 {
+    width: 60%;
+    object-fit: contain;
+}
+
+.text3 {
+    font-size: 1.2rem;
+    padding: .5em;
+}
+
+.box32 {
+    margin-top: 1rem;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.box21 {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.image3 {
+    height: 70%;
+    object-fit: contain;
+}
+
+.text4 {
+    color: #ABABAB;
+}
+
+.chipItems {
+    padding: .3rem 1rem;
+    background-color: #C0CEFF;
+    border-radius: 1rem;
+}
+
+.button1 {
+    background-color: #36416A;
+    padding: .4rem 1rem;
+    color: white;
+    border-radius: 1rem;
+}
+
+.main2 {
+    height: 12rem;
+    background-color: #36416A26;
+}
+
+.top {
+    height: 4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.commentBox {
+    height: 2.5rem;
+    width: 85%;
+    border: none;
+    border-radius: 1.25rem 0 0 1.25rem;
+    font-size: 1.2rem;
+    padding: .5rem 1rem;
+}
+.commentBox:focus{
+    outline: none;
+}
+
+.image4 {
+    height: 2.5rem;
+    padding: .5rem;
+    background-color: white;
+    object-fit: contain;
+    border-radius: 0 1.25rem 1.25rem 0;
+}
+
+.bottom {
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    overflow: scroll;
+}
+
+.comments {
+    padding: .5rem 1rem;
+    background-color: #C7CBD6;
+    margin: .25rem .5rem;
+    border-radius: 1rem;
+
+}
+
+@media screen and (max-width: 600px) {
+    .image1 {
+        width: 10%;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .text1 {
+        font-size: 1.2rem;
+        height: 1.5rem;
+    }
+
+    .text2,
+    .text4,
+    .text3,
+    .text5 {
+        font-size: .8rem;
+    }
+
+    .chipItems {
+        font-size: .8rem;
+        padding: .2rem .5rem;
+    }
+
+    .box21 {
+        gap: .3rem;
+    }
+
+    .image3 {
+        height: 40%;
+    }
+
+    .box31 {
+        height: 50%;
+        width: 2rem;
+        border-radius: .8rem;
+    }
+
+    .image2 {
+        width: 40%;
+    }
+
+    .image5 {
+        height: 60%;
+    }
+    .button1{
+        padding: .2rem 1rem;
+        font-size: .8em;
+    }
+}

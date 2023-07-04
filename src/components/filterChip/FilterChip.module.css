@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 2rem;
+
+    padding: 0 1rem;
+    background-color: #36416A26;
+    border-radius: 1rem;
+    font: 1rem;
+    margin: 1rem .5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.selected {
+    color: white;
+    background-color: #36416A;
+}
